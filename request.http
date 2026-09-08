@@ -1,0 +1,7 @@
+POST http://localhost:8081/kafka
+Content-Type: application/json
+
+{
+  "route": "rota-recebimento-produtos",
+  "content": "queijo 123"
+}
